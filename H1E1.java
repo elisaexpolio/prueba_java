@@ -6,9 +6,9 @@ public class H1E1 {
 
 	public static void main(String[] args) {
 		//Elisa Expolio (19-09-2021)
-		//Ejercicio que nos dice si un número es divisor de otro
+		//Ejercicio que nos dice si un nÃºmero es divisor de otro
 		
-		//Vamos a pedir que nos introduzcan los números por pantalla
+		//Vamos a pedir que nos introduzcan los nÃºmeros por pantalla
 		//Declaramos las variables y adjudicamos valores
 		float A;
 		float B;
@@ -24,7 +24,7 @@ public class H1E1 {
 		sc= new Scanner(System.in);  //crear una instancia
 		
 		System.out.print("Introducir numerador: ");
-		A=sc.nextInt(); //pedimos que se introduzca una variable tipo int para asignar a A (cada tipo de variable tendrá su comando)
+		A=sc.nextInt(); //pedimos que se introduzca una variable tipo int para asignar a A (cada tipo de variable tendrÃ¡ su comando)
 		System.out.print("Introducir divisor: ");
 		B=sc.nextInt(); 
 		
@@ -40,7 +40,7 @@ public class H1E1 {
 			
 			//A es divisor de B
 			mensaje=A + " es divisible entre "+B;	//unimos distintos tipos de variables concatenando con el +
-													//se realiza una conversión automática (implícita) de los números int a Strings 
+													//se realiza una conversiÃ³n automÃ¡tica (implÃ­cita) de los nÃºmeros int a Strings 
 			//mensaje=String.valueOf(A)+" es divisible entre "+String.valueOf(B);
 			//mensaje=String.format("%d es divisible entre %d",A, B);
 		}
@@ -51,6 +51,7 @@ public class H1E1 {
 		
 		System.out.println(mensaje);
 
+		//modificaciÃ³n prueba github
 	}
 
 }
